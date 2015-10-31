@@ -25,7 +25,7 @@ class Account extends Model implements AuthenticatableContract,
 
     /** @var bool
      */
-    public static $timestamps = TRUE;
+    //public static $timestamps = TRUE;
 
     /**
      * The attributes that are mass assignable.

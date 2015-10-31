@@ -15,7 +15,8 @@ class CreateReligionTable extends Migration
         Schema::create('religion', function (Blueprint $table) {
             $table->increments('id');
             $table->string('religion', 50);
-            $table->timestamps();
+            
+            //$table->timestamps();
         });
     }
 

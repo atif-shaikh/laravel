@@ -19,10 +19,10 @@ Route::get('/', function()
 
 
 
-// Route::controllers([
-//     'auth' => 'Auth\AuthController', 
-//     'password' => 'Auth\PasswordController',
-// ]);
+Route::controllers([
+    '' => 'Auth\AuthController', 
+    'password' => 'Auth\PasswordController',
+]);
 
 
 
@@ -33,10 +33,10 @@ Route::get('/', function()
 // ]);
 
 // Registration routes...
-Route::get('register', 'Auth\AuthController@getRegister');
-Route::post('register', 'Auth\AuthController@postRegister');
-Route::get('login', 'Auth\AuthController@getLogin');
-Route::post('login', 'Auth\AuthController@postLogin');
+//Route::get('register', 'Auth\AuthController@getRegister');
+//Route::post('register', 'Auth\AuthController@postRegister');
+//Route::get('login', 'Auth\AuthController@getLogin');
+//Route::post('login', 'Auth\AuthController@postLogin');
 //Route::get('logout', 'Auth\AuthController@getLogout');
 //Route::get('email', 'Auth\PasswordController@getEmail');
 //Route::post('email', 'Auth\PasswordController@postEmail');

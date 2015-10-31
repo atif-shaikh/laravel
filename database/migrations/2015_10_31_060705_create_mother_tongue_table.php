@@ -15,7 +15,8 @@ class CreateMotherTongueTable extends Migration
         Schema::create('mother_tongue', function (Blueprint $table) {
             $table->increments('id');
             $table->string('mother_tongue', 50);
-            $table->timestamps();
+            
+            //$table->timestamps();
         });
     }
 

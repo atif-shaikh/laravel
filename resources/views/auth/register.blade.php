@@ -19,7 +19,7 @@
                     <form class="form-horizontal" role="form" method="POST" action="register">
                         {!! csrf_field() !!}
  
-                        <div class="form-group">
+                        <!--div class="form-group">
                             <label class="col-md-4 control-label">First Name</label>
                             <div class="col-md-6">
                                 <input type="text" class="form-control" name="first_name" value="{{ old('first_name') }}">
@@ -31,7 +31,7 @@
                             <div class="col-md-6">
                                 <input type="text" class="form-control" name="last_name" value="{{ old('last_name') }}">
                             </div>
-                        </div>
+                        </div-->
  
                         <div class="form-group">
                             <label class="col-md-4 control-label">E-Mail Address</label>
